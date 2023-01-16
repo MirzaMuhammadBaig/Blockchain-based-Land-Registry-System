@@ -1,0 +1,30 @@
+{
+  "name": "blockchain-based-land-registry-system",
+  "version": "1.0.0",
+  "description": "This is my first real world project on blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MirzaMuhammadBaig/Blockchain-based-Land-Registry-System.git"
+  },
+  "keywords": [
+    "Awesome"
+  ],
+  "author": "MirzaMuhammadBaig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MirzaMuhammadBaig/Blockchain-based-Land-Registry-System/issues"
+  },
+  "homepage": "https://github.com/MirzaMuhammadBaig/Blockchain-based-Land-Registry-System#readme",
+  "devDependencies": {
+    "truffle": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "web3": "^1.8.1",
+    "@truffle/hdwallet-provider": "^2.0.13"
+  }
+}
