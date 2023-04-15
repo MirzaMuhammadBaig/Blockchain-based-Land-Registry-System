@@ -41,15 +41,15 @@ Once the contract is deployed, you can interact with it using a Web3-enabled bro
 
 - GetLandArea: Returns the area of the land registration by LandID.
 
-Smart Contract Security
-The smart contract has been written with security in mind, and the following measures have been taken to prevent potential vulnerabilities:
+#### Smart Contract Security
+- The smart contract has been written with security in mind, and the following measures have been taken to prevent potential vulnerabilities:
 
-The contract uses the onlylandinspector modifier to ensure that only the Land Inspector can perform certain functions.
+- The contract uses the onlylandinspector modifier to ensure that only the Land Inspector can perform certain functions.
 
-The contract uses mappings to store the details of buyers, sellers, and land registrations.
+- The contract uses mappings to store the details of buyers, sellers, and land registrations.
 
-The contract uses the require statement to ensure that only verified sellers, buyers, and land registrations can interact with the contract.
+- The contract uses the require statement to ensure that only verified sellers, buyers, and land registrations can interact with the contract.
 
-License
-This project is licensed under the MIT License.
+#### License
+- This project is licensed under the MIT License.
 
